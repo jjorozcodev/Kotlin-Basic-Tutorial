@@ -57,4 +57,9 @@ fun main (args: Array<String>)
         println("Using IS for evaluate an expression's result.")
     }
 
+    println()
+
+    val A : Char = 'A'
+    println("A is a letter?... ${A is Char}\n")
+
 }
