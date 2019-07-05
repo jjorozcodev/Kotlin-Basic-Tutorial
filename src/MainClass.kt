@@ -34,4 +34,6 @@ fun main (args: Array<String>)
     println("Biggest Float: " + BigFloat)
     println("Smallest Float: $SmallFloat")
 
+    val OtherLong : Long = BigInt.toLong() // Un tipo numérico más simple no se puede asignar a uno más complejo a menos que se haga un cast explícito
+    println("Un INT que se convirtió en LONG: " + OtherLong)
 }
