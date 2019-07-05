@@ -62,4 +62,9 @@ fun main (args: Array<String>)
     val A : Char = 'A'
     println("A is a letter?... ${A is Char}\n")
 
+    // Conversión explícita
+    println("3.14 to Int: " + (3.14.toInt()))
+    println("A to Int: " + ('A'.toInt()))
+    println("65 to Char: " + (65.toChar()))
+
 }
