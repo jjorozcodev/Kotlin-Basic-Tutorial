@@ -36,4 +36,25 @@ fun main (args: Array<String>)
 
     val OtherLong : Long = BigInt.toLong() // Un tipo numérico más simple no se puede asignar a uno más complejo a menos que se haga un cast explícito
     println("Un INT que se convirtió en LONG: " + OtherLong)
+
+    if(true is Boolean)
+    {
+        println("Using IS for evaluate an object or result.")
+    }
+
+    if(alias is String)
+    {
+        println("Using IS for evaluate is ALIAS is an STRING.")
+    }
+
+    if(100 is Int)
+    {
+        println("Using IS for evaluate if 100 is a integer.")
+    }
+
+    if((2 == 1) is Boolean)
+    {
+        println("Using IS for evaluate an expression's result.")
+    }
+
 }
